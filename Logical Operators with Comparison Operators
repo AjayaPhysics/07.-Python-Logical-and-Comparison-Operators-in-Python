@@ -1,0 +1,7 @@
+# Combining logical and comparison operators
+age = 25
+income = 5000
+
+# Check if age is between 18 and 30, and income is above 3000
+is_eligible = (18 <= age <= 30) and (income > 3000)
+print("Is eligible:", is_eligible)  # Output: True
