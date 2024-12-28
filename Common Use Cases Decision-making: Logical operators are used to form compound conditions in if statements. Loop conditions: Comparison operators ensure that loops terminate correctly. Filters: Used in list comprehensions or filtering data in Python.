@@ -1,0 +1,4 @@
+# Filter even numbers greater than 10
+numbers = [5, 12, 18, 7, 20, 3, 15]
+filtered = [num for num in numbers if (num > 10) and (num % 2 == 0)]
+print("Filtered numbers:", filtered)  # Output: [12, 18, 20]
